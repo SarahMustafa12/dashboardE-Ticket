@@ -1,0 +1,59 @@
+﻿
+ @model Movie
+ <section class="py-5">
+	<div class="container px-4 px-lg-5 my-5">
+		<div class="row gx-4 gx-lg-5 align-items-center">
+			<div class="col-md-6">
+				<img class="card-img-top mb-5 mb-md-0" src="~/images/movies/@Model.ImgUrl" alt="Product Image" />
+			</div>
+			<div class="col-md-6">
+
+				<h1 class="display-5 fw-bolder">@Model.Name</h1>
+
+				<div class="fs-5 mb-3">
+					<div class="small mb-1">Category: @Model.Category.Name</div>
+					<span>Cinema: @Model.Cinema.Name</span><br />
+					<span>Start Date: @Model.StartDate</span><br />
+					<span>End Date: @Model.EndDate</span>
+				</div>
+
+				<div class="fs-5 mb-5">
+					<span>Price: @Model.Price.ToString("C")</span>
+				</div>
+				<div class="fs-5 mb-5">
+					<p class="lead">@Model.Description</p>
+				</div>
+				<div class="fs-5 mb-3">
+					<div class="d-flex flex-wrap">
+                        <div class="d-flex flex-wrap">
+                            @foreach (var actor in Model.Actors)
+                            {
+								<a href="/End%20User/Home/ActorDetails/@Model.Id/@actor.ActorId"
+                                   target="_blank"
+                                   class="me-3 text-decoration-none">
+                                    <img src="~/images/cast/@actor.Actor.ProfilePicture"
+                                         alt="@actor.Actor.FirstName"
+                                         class="rounded-circle border" width="50" height="50" />
+                                </a>
+                            }
+                        </div>
+
+					</div>
+				</div>
+
+
+				<div class="d-flex">
+					<input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
+					<button class="btn btn-outline-dark flex-shrink-0" type="button">
+						<i class="bi-cart-fill me-1"></i>
+						Add to cart
+					</button>
+					
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+

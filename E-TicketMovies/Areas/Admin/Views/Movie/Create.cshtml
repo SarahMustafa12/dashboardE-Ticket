@@ -1,0 +1,187 @@
+﻿@model Movie
+<style>
+    .dropdown-menu {
+        max-height: 200px; /* Adjust the height as needed */
+        overflow-y: auto;
+    }
+</style>
+
+
+<div class="container my-3">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-primary">Add Movie</h6>
+                </div>
+                <div class="card-body">
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="Name" class="form-label"> Name</label>
+                            <input type="text" class="form-control" id="Name" name="Name">
+                            <span class="text-danger" asp-validation-for="Name"></span>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="Description" class="form-label">Description</label>
+                            <input type="text" class="form-control" id="Description" name="Description">
+                            <span class="text-danger" asp-validation-for="Description"></span>
+                        </div>
+
+                        <!-- Movie Logo Upload -->
+                        <div class="mb-3">
+                            <label for="MovieLogo" class="form-label d-block">Image</label>
+                            <div class="d-flex align-items-center">
+                                <div class="custom-file w-auto">
+                                    <input type="file" class="custom-file-input" id="MovieLogo" name="ImgUrl" accept="image/*" onchange="previewMovieImage(event)">
+                                    <label class="custom-file-label text-left" for="MovieLogo">Choose file</label>
+                                </div>
+                            </div>
+                            <span class="text-danger" asp-validation-for="ImgUrl"></span>
+
+                            <!-- Image Preview (Below Input) -->
+                            <div class="mt-3 position-relative" id="imgContainer" style="display: none;">
+                                <img id="imgPreview" src="#" alt="Image Preview" class="border rounded" style="max-width: 150px; height: auto;">
+                                <button type="button" class="btn btn-danger btn-sm position-absolute" style="top: -10px; right: -10px;" onclick="removeMovieImage()">X</button>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="TrailerUrl" class="form-label">Trailer Url</label>
+                            <input type="text" class="form-control" id="TrailerUrl" name="TrailerUrl">
+                            <span class="text-danger" asp-validation-for="TrailerUrl"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Price" class="form-label">Price</label>
+                            <input type="number" class="form-control" id="Price" name="Price">
+                            <span class="text-danger" asp-validation-for="Price"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="StartDate" class="form-label">Start Date</label>
+                            <input type="datetime-local" class="form-control custom-datetime" id="StartDate" name="StartDate">
+                            <span class="text-danger" asp-validation-for="StartDate"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="EndDate" class="form-label"> End Date</label>
+                            <input type="datetime-local" class="form-control custom-datetime" id="EndDate" name="EndDate">
+                            <span class="text-danger" asp-validation-for="EndDate"></span>
+                        </div>
+                     
+                        <div class="mb-3">
+                       
+                            <div class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle" type="button" id="actorDropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Select Actors
+                                </button>
+                                <div class="dropdown-menu p-3" aria-labelledby="actorDropdownButton" style="min-width: 250px;">
+                                    @foreach (var actor in ViewBag.Actors)
+                                    {
+                                        <div class="dropdown-item">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="actor_@actor.Id" name="actorsId" value="@actor.Id">
+                                                <label class="custom-control-label" for="actor_@actor.Id">@actor.FirstName @actor.LastName</label>
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                      @*  ---------------- *@
+                        <div class="mb-3">
+                            <select class="form-control" id="actorDropdown" name="CategoryId">
+                                <option value="" disabled selected>Select Category</option>
+                                @foreach(var item in ViewBag.Category){
+                                    <option value="@item.Id">@item.Name</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="form-control" id="actorDropdown" name="MovieStatus">
+                                <option value="" disabled selected>Select Status</option>
+                               
+                                    <option value="0">Coming Soon</option>
+                                    <option value="1">Availible</option>
+                                    <option value="2">Expired</option>
+
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="form-control" id="actorDropdown" name="CinemaId">
+                                <option value="" disabled selected>Select Cinema</option>
+                                @foreach (var item in ViewBag.Cinema)
+                                {
+                                    <option value="@item.Id">@item.Name</option>
+                                }
+                               
+                            </select>
+                        </div>
+
+
+                            
+
+                    
+                        
+
+                        <button type="submit" class="btn btn-primary">Add</button>
+                        <a href="/Admin/Movie" class="btn btn-secondary">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    flatpickr("#StartDate", {
+        enableTime: true,
+        dateFormat: "d-m-Y H:i",
+        time_24hr: true,
+        theme: "material_blue" // You can change the theme to dark, airbnb, etc.
+    });
+</script>
+
+<script>
+    document.getElementById('MovieLogo').addEventListener('change', function () {
+        var fileName = this.files[0] ? this.files[0].name : "Choose file";
+        this.nextElementSibling.innerText = fileName;
+    });
+
+    function previewMovieImage(event) {
+        const imgPreview = document.getElementById('imgPreview');
+        const imgContainer = document.getElementById('imgContainer');
+        const file = event.target.files[0];
+
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                imgPreview.src = e.target.result;
+                imgContainer.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        }
+    }
+
+    function removeMovieImage() {
+        const imgPreview = document.getElementById('imgPreview');
+        const imgContainer = document.getElementById('imgContainer');
+        const inputFile = document.getElementById('MovieLogo');
+
+        imgPreview.src = '';
+        imgContainer.style.display = 'none';
+        inputFile.value = '';
+        document.querySelector(".custom-file-label").innerText = "Choose file";
+    }
+     document.addEventListener("DOMContentLoaded", function () {
+        // Prevent dropdown from closing when clicking inside
+        document.querySelectorAll(".dropdown-menu").forEach(function (menu) {
+            menu.addEventListener("click", function (event) {
+                event.stopPropagation();
+            });
+        });
+    });
+
+</script>
+
+

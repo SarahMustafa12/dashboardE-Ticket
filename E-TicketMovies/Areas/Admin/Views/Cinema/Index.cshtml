@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Cinema>
+<div class="container-fluid">
+
+    <!-- Title & Create Button -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="h3 text-gray-800">All Cinemas</h1>
+        <a href="/Admin/Cinema/Create" class="btn btn-primary btn-icon-split">
+            <span class="icon text-white-50">
+                <i class="fas fa-plus"></i>
+            </span>
+            <span class="text">Add New</span>
+        </a>
+    </div>
+
+    <!-- Cinemas Table -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Cinema List</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Image</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td class="text-center">
+                                    <img src="~/images/cinema/@item.CinemaLogo" alt="Cinema Logo" class="rounded-circle" style="width: 50px; height: 50px; object-fit: cover;">
+                                </td>
+                                <td>
+                                    <a href="/Admin/Cinema/Edit/@item.Id" class="btn btn-warning btn-sm">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </a>
+                                    <button class="btn btn-danger btn-sm" onclick="confirmDelete(@item.Id)">
+                                        <i class="fas fa-trash"></i> Delete
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Include SweetAlert2 -->
+<script>
+    function confirmDelete(cinemaId) {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "This action cannot be undone!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#143D60",
+            cancelButtonColor: "#6c757d",
+            confirmButtonText: "Yes, delete it!",
+            cancelButtonText: "Cancel"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "/Admin/Cinema/Delete/" + cinemaId;
+            }
+        });
+    }
+</script>

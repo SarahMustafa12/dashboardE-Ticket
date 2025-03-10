@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\EraaSoft Tasks\\E-TicketMovies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|e:\\eraasoft tasks\\e-ticketmovies\\e-ticketmovies\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|solutionrelative:e-ticketmovies\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|e:\\eraasoft tasks\\e-ticketmovies\\e-ticketmovies\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|solutionrelative:e-ticketmovies\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|e:\\eraasoft tasks\\e-ticketmovies\\e-ticketmovies\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|solutionrelative:e-ticketmovies\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|e:\\eraasoft tasks\\e-ticketmovies\\e-ticketmovies\\areas\\admin\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|solutionrelative:e-ticketmovies\\areas\\admin\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|e:\\eraasoft tasks\\e-ticketmovies\\e-ticketmovies\\areas\\admin\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|solutionrelative:e-ticketmovies\\areas\\admin\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|e:\\eraasoft tasks\\e-ticketmovies\\e-ticketmovies\\areas\\admin\\views\\cinema\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|solutionrelative:e-ticketmovies\\areas\\admin\\views\\cinema\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|e:\\eraasoft tasks\\e-ticketmovies\\e-ticketmovies\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|solutionrelative:e-ticketmovies\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|e:\\eraasoft tasks\\e-ticketmovies\\e-ticketmovies\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|solutionrelative:e-ticketmovies\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|e:\\eraasoft tasks\\e-ticketmovies\\e-ticketmovies\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08F252D-66A5-4294-AA04-C6E3D65C9E79}|E-TicketMovies\\E-TicketMovies.csproj|solutionrelative:e-ticketmovies\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "custom.css",
+              "DocumentMoniker": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\css\\custom.css",
+              "RelativeDocumentMoniker": "E-TicketMovies\\wwwroot\\css\\custom.css",
+              "ToolTip": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\css\\custom.css",
+              "RelativeToolTip": "E-TicketMovies\\wwwroot\\css\\custom.css",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-10T21:22:15.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "E-TicketMovies\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "E-TicketMovies\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAM0AAAAAAAAAAIAwwOgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T21:18:32.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "E-TicketMovies\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "E-TicketMovies\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T21:18:17.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "E-TicketMovies\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "E-TicketMovies\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAANYAAAAAAAAAAIAwwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T21:17:30.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "E-TicketMovies\\Models\\Category.cs",
+              "ToolTip": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Models\\Category.cs",
+              "RelativeToolTip": "E-TicketMovies\\Models\\Category.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T21:13:42.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "E-TicketMovies\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "E-TicketMovies\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T21:12:07.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Views\\Cinema\\Edit.cshtml",
+              "RelativeDocumentMoniker": "E-TicketMovies\\Areas\\Admin\\Views\\Cinema\\Edit.cshtml",
+              "ToolTip": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Views\\Cinema\\Edit.cshtml",
+              "RelativeToolTip": "E-TicketMovies\\Areas\\Admin\\Views\\Cinema\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T21:11:37.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Models\\Cinema.cs",
+              "RelativeDocumentMoniker": "E-TicketMovies\\Models\\Cinema.cs",
+              "ToolTip": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Models\\Cinema.cs",
+              "RelativeToolTip": "E-TicketMovies\\Models\\Cinema.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T21:07:32.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CinemaController.cs",
+              "DocumentMoniker": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "RelativeDocumentMoniker": "E-TicketMovies\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "ToolTip": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "RelativeToolTip": "E-TicketMovies\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswFMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T21:07:27.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

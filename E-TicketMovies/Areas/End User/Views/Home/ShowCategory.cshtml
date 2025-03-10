@@ -1,0 +1,26 @@
+﻿
+<div class="container mt-5">
+<table class="table table-sm table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Category</th>
+            <th scope="col">Movies</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model){
+                <tr class="table-light">
+            <th scope="row">@item.Name</th>
+                    <td>
+                        @foreach(var movie in item.Movies){
+                            <div>
+                                <a class="btn btn-info" style="text-decoration:none; margin-bottom: 10px; display: inline-block;" href="/End%20User/Home/ShowDetails/@movie.Id"> @movie.Name </a>
+                                </div>
+                        }
+                        </td>
+            
+        </tr>
+        }
+    </tbody>
+</table>
+</div>
