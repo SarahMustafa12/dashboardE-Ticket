@@ -1,12 +1,18 @@
-﻿@model Actor
+﻿@model ActorMovie
 
 <div class="card mt-4">
     <div class="card-body d-flex align-items-center">
-        <img src="~/images/cast/@Model.ProfilePicture"
-             alt="Actor Image"
-             class="rounded-circle border me-2"
-             width="40" height="40" />
-        <span>This is some text within a card body.</span>
+        <img src="~/images/cast/@Model.Actor.ProfilePicture"
+        alt="Actor Image"
+        class="rounded-circle border me-2"
+        width="40" height="40" />
+        <span>@Model.Actor.Bio</span>
     </div>
 </div>
 
+@* <div class="list-group">
+    @foreach (var movie in Model.Actor.Movies)
+    {
+        <a href="#" class="list-group-item list-group-item-action list-group-item-dark">@movie.Movie.Name</a>
+    }
+</div> *@

@@ -42,13 +42,15 @@ namespace E_TicketMovies.Repositories
         {
             dbContext.SaveChanges();
         }
-        public IEnumerable<T> Get(Expression<Func<T, bool>>? filter = null, Expression<Func<T, object>>[]? includes = null, bool tracked = true)
-        {
+
+        public IEnumerable<T> Get(Expression<Func<T, bool>>? filter = null, Expression<Func<T, object>>[]? includes = null, bool tracked = true) {
             IQueryable<T> query = dbSet;
-            if (filter != null) {
-                query = query.Where(filter);    
+            if (filter != null)
+            {
+                query = query.Where(filter);
             }
-            if (includes != null) {
+            if (includes != null)
+            {
                 foreach (var include in includes)
                 {
                     query = query.Include(include);
@@ -60,7 +62,6 @@ namespace E_TicketMovies.Repositories
             }
 
             return query.ToList();
-
         }
         public T? GetOne(Expression<Func<T,bool>>? filter = null, Expression<Func<T, object>>[]? includes = null , bool tracked = true )
         {

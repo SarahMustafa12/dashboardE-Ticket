@@ -1,11 +1,13 @@
 ﻿using E_TicketMovies.Models;
 using E_TicketMovies.Repositories;
 using E_TicketMovies.Repositories.IRepositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace E_TicketMovies.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public class CategoryController : Controller
     {
         ICategoryRepository categoryRepository;
@@ -13,9 +15,25 @@ namespace E_TicketMovies.Areas.Admin.Controllers
             this.categoryRepository = categoryRepository;
 
         }
-        public IActionResult Index()
+        public IActionResult Index(string? query, int page)
         {
-            var categories = categoryRepository.Get().ToList(); 
+            var categories = categoryRepository.Get();
+            if (query != null)
+            {
+                categories = categoryRepository.Get(e=>e.Name.Contains(query));
+            }
+
+            int totalCount = categories.Count();
+            int pageSize = 3;
+            int totalPages = (int)Math.Ceiling((double)totalCount / pageSize);
+
+            if (page > totalPages && totalPages > 0)
+                return RedirectToAction("NotFoundPage", "Home", new { area = "End User" });
+
+            categories = categories.Skip((page - 1) * pageSize).Take(pageSize);
+
+            ViewBag.totalPages = totalPages;
+
             return View(categories);
         }
         [HttpGet]

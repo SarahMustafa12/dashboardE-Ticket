@@ -40,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWN0b3JcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Admin/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -84,12 +88,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW92aWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Admin/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Admin/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/Booking/BookingDetalis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcQm9va2luZ1xCb29raW5nRGV0YWxpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/Booking/Refund.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcQm9va2luZ1xSZWZ1bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/Cart/AddToCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcQ2FydFxBZGRUb0NhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/Checkout/Cancel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcQ2hlY2tvdXRcQ2FuY2VsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/Checkout/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcQ2hlY2tvdXRcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/Home/ActorDetails.cshtml]
@@ -122,6 +158,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Identity/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Identity/Views/Account/ConfirmEmailSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxDb25maXJtRW1haWxTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Identity/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Identity/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Identity/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Identity/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Views/Shared/Error.cshtml]

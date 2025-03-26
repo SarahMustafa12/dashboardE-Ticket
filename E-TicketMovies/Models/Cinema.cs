@@ -12,8 +12,6 @@ namespace E_TicketMovies.Models
         public string Name { get; set; } = null!;
 
         public string? Description { get; set; }
-        [RegularExpression("^.*\\.(png|jpg|jpeg|gif|bmp|webp|tiff|tif|svg)$", ErrorMessage = "Only image files are allowed.")]
-
         public string? CinemaLogo { get; set; }
 
         public string? Address { get; set; }

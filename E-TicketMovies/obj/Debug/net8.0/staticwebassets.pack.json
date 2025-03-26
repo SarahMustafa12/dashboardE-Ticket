@@ -21,12 +21,116 @@
       "PackagePath": "staticwebassets\\css\\sb-admin-2.min.css"
     },
     {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\account.css",
+      "PackagePath": "staticwebassets\\end user\\account.css"
     },
     {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\45607473-0fdc-40e5-ad78-fc21c3947c88.jpg",
-      "PackagePath": "staticwebassets\\images\\cast\\45607473-0fdc-40e5-ad78-fc21c3947c88.jpg"
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\app.js",
+      "PackagePath": "staticwebassets\\end user\\app.js"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\1.jpeg",
+      "PackagePath": "staticwebassets\\end user\\img\\1.jpeg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\10.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\10.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\11.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\11.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\12.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\12.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\13.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\13.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\14.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\14.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\15.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\15.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\16.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\16.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\17.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\17.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\18.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\18.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\19.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\19.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\2.jpeg",
+      "PackagePath": "staticwebassets\\end user\\img\\2.jpeg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\3.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\4.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\5.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\6.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\7.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\7.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\8.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\8.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\9.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\9.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-1.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\f-1.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-2.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\f-2.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-t-1.png",
+      "PackagePath": "staticwebassets\\end user\\img\\f-t-1.png"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-t-2.png",
+      "PackagePath": "staticwebassets\\end user\\img\\f-t-2.png"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\end user\\img\\profile.jpg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\style.css",
+      "PackagePath": "staticwebassets\\end user\\style.css"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\cast1.png",
@@ -51,6 +155,10 @@
     {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\cast6.png",
       "PackagePath": "staticwebassets\\images\\cast\\cast6.png"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png",
+      "PackagePath": "staticwebassets\\images\\cast\\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png"
     },
     {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cinema\\DisParturientMontes.jpeg",
@@ -81,12 +189,16 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\6d198fbe-75e5-4b72-9f90-72b50737bc56.png",
-      "PackagePath": "staticwebassets\\images\\movies\\6d198fbe-75e5-4b72-9f90-72b50737bc56.png"
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg",
+      "PackagePath": "staticwebassets\\images\\movies\\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg"
     },
     {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\afc78956-458f-4e0e-bc71-5d1bda340f84.jpg",
-      "PackagePath": "staticwebassets\\images\\movies\\afc78956-458f-4e0e-bc71-5d1bda340f84.jpg"
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg",
+      "PackagePath": "staticwebassets\\images\\movies\\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg",
+      "PackagePath": "staticwebassets\\images\\movies\\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg"
     },
     {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\movie1.png",
@@ -405,6 +517,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\login.css",
+      "PackagePath": "staticwebassets\\login.css"
+    },
+    {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\logo.png",
+      "PackagePath": "staticwebassets\\logo.png"
+    },
+    {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\movie-ticket.png",
       "PackagePath": "staticwebassets\\movie-ticket.png"
     },
@@ -503,14 +623,6 @@
     {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\tablesCss\\tables.css",
       "PackagePath": "staticwebassets\\tablesCss\\tables.css"
-    },
-    {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\test.css",
-      "PackagePath": "staticwebassets\\test.css"
-    },
-    {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\test1.js",
-      "PackagePath": "staticwebassets\\test1.js"
     },
     {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",

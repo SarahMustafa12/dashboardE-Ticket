@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PyL2o31+sJZACnQ7Vm2Pkylb2QXGBnijg1jH1sHqsNM=",
+  "Hash": "SFKjFiWkBTbcVw58seKg/SVJ45wXd7V+oDJJ+6EC1ys=",
   "Source": "E-TicketMovies",
   "BasePath": "_content/E-TicketMovies",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7490ggfk76",
-      "Integrity": "J27SzIfeeEUpCoYX9ufyD/X1t3Ygo8n7UVPxU4omXrw=",
+      "Fingerprint": "xpg277wo4n",
+      "Integrity": "21vIec00VYqKTK4i22FYKTNRK041r6+ekMnOWSNqW3A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\custom.css"
@@ -143,6 +143,573 @@
       "OriginalItemSpec": "wwwroot\\css\\sb-admin-2.min.css"
     },
     {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\account.css",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/account#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kwcnmjbqim",
+      "Integrity": "7CxPxI4zSjG4/hbzTog4FvjQnGfIHVLb2mqZl5W8WSY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\account.css"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\app.js",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ybpgd2rwz",
+      "Integrity": "wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\app.js"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\1.jpeg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/1#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kfs9siclen",
+      "Integrity": "0ONBQGAGx6fjshAJIt91Ed727aTxF7maLkwt0X8KP/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\1.jpeg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\10.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/10#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qytd5xvl9u",
+      "Integrity": "Dq63iXBpSUrSbo5NBezIwfnWAwCfpAipxDqdlu3DhUI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\10.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\11.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/11#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rbxwy1cozk",
+      "Integrity": "ScloeYsVLuX/Z8jTkWEG5+iwBnDQozxV0uFuTa5xO+E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\11.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\12.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/12#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "owllsoch8m",
+      "Integrity": "KF4jntjGMKw7p4GAyBTBnHGP7QKERFdIW3K4P6S3/DQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\12.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\13.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/13#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fcyoc0wylp",
+      "Integrity": "38/UXKIPw1J11m3LT8j2O8YY3PykKY1szEl1DeSnNOw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\13.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\14.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/14#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bwc7vctui4",
+      "Integrity": "C7zR4r2Lz6M1rlYxUdNiTj4cZum5DSwQxJvE9kkHJA8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\14.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\15.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/15#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zrqg7qaqkx",
+      "Integrity": "jxpF/E0w29dC/wFtSQCfCzWH6B0YxW/ANxaQO8uC6N0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\15.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\16.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/16#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l3hn9miccf",
+      "Integrity": "UZfDBQdsUkBUspAbq+ZXgFuTXNBei6t2X6xokFvX5Iw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\16.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\17.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/17#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b3uekwien3",
+      "Integrity": "10MpqKiqFSQuGSoPOLkw3EdNTeNAn/Zd7RncymfYl0U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\17.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\18.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/18#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kymmkshxba",
+      "Integrity": "vPGz+nkFtthLqNw2edspDdU3u4IJKeXhIuFeUzTijFg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\18.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\19.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/19#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6q8zjis624",
+      "Integrity": "7tE85oOL+RBRTXdlxsG5cS7jjnOGRdW2h7huD5XZFfI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\19.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\2.jpeg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/2#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fkxfrkx5y7",
+      "Integrity": "UY21455KqabNw8U+QztQ0bSIsFTxCBVEppyvfPasIT8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\2.jpeg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\3.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bx8qjfhznw",
+      "Integrity": "rw5TCcW+bo1tiL0kpO32x2iTH5MowOOXtlnG2PftAV0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\3.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\4.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0s6iiwzt9t",
+      "Integrity": "MMt3FNEwwqDmOrWni+NDqwKSIGjuLs5XtXtHTlvPQHI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\4.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\5.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9qwkwiz5lm",
+      "Integrity": "TwV6flN84fTNzRk8No6AOdhI7n03YbmC/+3fY8bGHho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\5.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\6.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zfh1li4vng",
+      "Integrity": "cTTImcV/b7yRbw4XNvE90UVxqwbGHVt9f9HxdsX7wSc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\6.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\7.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1amgn3ehts",
+      "Integrity": "yVd7Vp/DmtM8IZmZfRZz9hTwzbFOt1/vHsjn9LoDulc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\7.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\8.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y17ho2he46",
+      "Integrity": "9i2clb7dDmIoYys+jOqkvYXz0Ev4P73NmQMzzFA3ez8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\8.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\9.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ira63m8zc4",
+      "Integrity": "/raiCk89QNdKPDfqAUeNYz1EdLDVNkfp26v7MmXm4aQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\9.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-1.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/f-1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k3qx1ke74k",
+      "Integrity": "YBPBQjYR+d0Us1n+wfp6hkhHyayZE0Tc7U2TfzPgR98=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\f-1.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-2.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/f-2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "17lprh2s5b",
+      "Integrity": "jTapEKcTWOoHTeawWtW5Yi3QUy8Op//0wAGoA6Sczok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\f-2.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-t-1.png",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/f-t-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wfxchs4pn6",
+      "Integrity": "TFV2P5m1225BFhldwv+GmErgt4fPSQW6Xib2l8Y8QGg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\f-t-1.png"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-t-2.png",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/f-t-2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zg6lejpnrn",
+      "Integrity": "A15X9zHD1eQ1pMmujQ9KSrQY3IUj+rdohgXnPHpGm5w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\f-t-2.png"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\profile.jpg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/img/profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j1hljx4t4w",
+      "Integrity": "h+DC48iXFFUfMX5loK7kqV6tUXc0uMg7LSmpfb9GS4E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\img\\profile.jpg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\style.css",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hq3weg8pnu",
+      "Integrity": "F1f8SsD3v3f7UPPShVPavPE2gUJbV68Kv5i7HKDNqdY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\style.css"
+    },
+    {
       "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\favicon.ico",
       "SourceId": "E-TicketMovies",
       "SourceType": "Discovered",
@@ -162,27 +729,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
-    },
-    {
-      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\45607473-0fdc-40e5-ad78-fc21c3947c88.jpg",
-      "SourceId": "E-TicketMovies",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
-      "BasePath": "_content/E-TicketMovies",
-      "RelativePath": "images/cast/45607473-0fdc-40e5-ad78-fc21c3947c88#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "mdwtcchq5q",
-      "Integrity": "1urnHtQxwy3d7CQvtGRXBu7jOO/wpubD+Na0/cq0g54=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\cast\\45607473-0fdc-40e5-ad78-fc21c3947c88.jpg"
     },
     {
       "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\cast1.png",
@@ -309,6 +855,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\cast\\cast6.png"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "images/cast/ddff2712-6f26-4a2a-83bf-8bc6fa484467#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w9tyx3oiib",
+      "Integrity": "TIpRr0dV4K/YHG4GDKpSxUk839b9NuoAqEp/SIQZzoY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cast\\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png"
     },
     {
       "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cinema\\DisParturientMontes.jpeg",
@@ -458,12 +1025,12 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\6d198fbe-75e5-4b72-9f90-72b50737bc56.png",
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg",
       "SourceId": "E-TicketMovies",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
       "BasePath": "_content/E-TicketMovies",
-      "RelativePath": "images/movies/6d198fbe-75e5-4b72-9f90-72b50737bc56#[.{fingerprint}]?.png",
+      "RelativePath": "images/movies/1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -472,19 +1039,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o4epbr8b8s",
-      "Integrity": "OHU3dDPdafyBu1e9witVinw8mZGe9DCAboZeXJPlRaA=",
+      "Fingerprint": "jr1pxdrzv4",
+      "Integrity": "0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\movies\\6d198fbe-75e5-4b72-9f90-72b50737bc56.png"
+      "OriginalItemSpec": "wwwroot\\images\\movies\\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg"
     },
     {
-      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\afc78956-458f-4e0e-bc71-5d1bda340f84.jpg",
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg",
       "SourceId": "E-TicketMovies",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
       "BasePath": "_content/E-TicketMovies",
-      "RelativePath": "images/movies/afc78956-458f-4e0e-bc71-5d1bda340f84#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/movies/3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -493,11 +1060,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wfnbjvwbed",
-      "Integrity": "lCWWokbLdKzw5Gvp+OrCVhvZw7cB+J4LpktGdWGhOAg=",
+      "Fingerprint": "jr1pxdrzv4",
+      "Integrity": "0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\movies\\afc78956-458f-4e0e-bc71-5d1bda340f84.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\movies\\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "images/movies/9a160023-888e-4c25-975c-9f0030f4c9fd#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jr1pxdrzv4",
+      "Integrity": "0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg"
     },
     {
       "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\movie1.png",
@@ -2159,6 +2747,48 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\login.css",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o45uthys9n",
+      "Integrity": "eLYFtpkqujdTzgh6t36o6VB/bwJJcas4AyoQQgH8jFQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.css"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\logo.png",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bx9uenonq2",
+      "Integrity": "v1d0azenBeNhKly7dlsfvQ9VbiFru0wBQkUhDFzptqA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.png"
+    },
+    {
       "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\movie-ticket.png",
       "SourceId": "E-TicketMovies",
       "SourceType": "Discovered",
@@ -2682,48 +3312,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\tablesCss\\tables.css"
-    },
-    {
-      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\test.css",
-      "SourceId": "E-TicketMovies",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
-      "BasePath": "_content/E-TicketMovies",
-      "RelativePath": "test#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3r8b2a0bt1",
-      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\test.css"
-    },
-    {
-      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\test1.js",
-      "SourceId": "E-TicketMovies",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
-      "BasePath": "_content/E-TicketMovies",
-      "RelativePath": "test1#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3r8b2a0bt1",
-      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\test1.js"
     },
     {
       "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
@@ -40988,51 +41576,6 @@
       ]
     },
     {
-      "Route": "css/custom.7490ggfk76.css",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\css\\custom.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "721"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"J27SzIfeeEUpCoYX9ufyD/X1t3Ygo8n7UVPxU4omXrw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 21:22:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7490ggfk76"
-        },
-        {
-          "Name": "label",
-          "Value": "css/custom.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-J27SzIfeeEUpCoYX9ufyD/X1t3Ygo8n7UVPxU4omXrw="
-        }
-      ]
-    },
-    {
       "Route": "css/custom.css",
       "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\css\\custom.css",
       "Selectors": [],
@@ -41043,7 +41586,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "721"
+          "Value": "780"
         },
         {
           "Name": "Content-Type",
@@ -41051,11 +41594,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J27SzIfeeEUpCoYX9ufyD/X1t3Ygo8n7UVPxU4omXrw=\""
+          "Value": "\"21vIec00VYqKTK4i22FYKTNRK041r6+ekMnOWSNqW3A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 21:22:20 GMT"
+          "Value": "Mon, 24 Mar 2025 10:26:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41065,7 +41608,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J27SzIfeeEUpCoYX9ufyD/X1t3Ygo8n7UVPxU4omXrw="
+          "Value": "sha256-21vIec00VYqKTK4i22FYKTNRK041r6+ekMnOWSNqW3A="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.xpg277wo4n.css",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\css\\custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"21vIec00VYqKTK4i22FYKTNRK041r6+ekMnOWSNqW3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:26:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xpg277wo4n"
+        },
+        {
+          "Name": "label",
+          "Value": "css/custom.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-21vIec00VYqKTK4i22FYKTNRK041r6+ekMnOWSNqW3A="
         }
       ]
     },
@@ -41234,6 +41822,2220 @@
       ]
     },
     {
+      "Route": "end user/account.css",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\account.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7CxPxI4zSjG4/hbzTog4FvjQnGfIHVLb2mqZl5W8WSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 20:59:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7CxPxI4zSjG4/hbzTog4FvjQnGfIHVLb2mqZl5W8WSY="
+        }
+      ]
+    },
+    {
+      "Route": "end user/account.kwcnmjbqim.css",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\account.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7CxPxI4zSjG4/hbzTog4FvjQnGfIHVLb2mqZl5W8WSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 20:59:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kwcnmjbqim"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/account.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7CxPxI4zSjG4/hbzTog4FvjQnGfIHVLb2mqZl5W8WSY="
+        }
+      ]
+    },
+    {
+      "Route": "end user/app.8ybpgd2rwz.js",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 05:33:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ybpgd2rwz"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE="
+        }
+      ]
+    },
+    {
+      "Route": "end user/app.js",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 05:33:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/1.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ONBQGAGx6fjshAJIt91Ed727aTxF7maLkwt0X8KP/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:30:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0ONBQGAGx6fjshAJIt91Ed727aTxF7maLkwt0X8KP/s="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/1.kfs9siclen.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ONBQGAGx6fjshAJIt91Ed727aTxF7maLkwt0X8KP/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:30:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kfs9siclen"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/1.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0ONBQGAGx6fjshAJIt91Ed727aTxF7maLkwt0X8KP/s="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/10.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "507636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dq63iXBpSUrSbo5NBezIwfnWAwCfpAipxDqdlu3DhUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dq63iXBpSUrSbo5NBezIwfnWAwCfpAipxDqdlu3DhUI="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/10.qytd5xvl9u.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "507636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dq63iXBpSUrSbo5NBezIwfnWAwCfpAipxDqdlu3DhUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qytd5xvl9u"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/10.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dq63iXBpSUrSbo5NBezIwfnWAwCfpAipxDqdlu3DhUI="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/11.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\11.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ScloeYsVLuX/Z8jTkWEG5+iwBnDQozxV0uFuTa5xO+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ScloeYsVLuX/Z8jTkWEG5+iwBnDQozxV0uFuTa5xO+E="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/11.rbxwy1cozk.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\11.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "79873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ScloeYsVLuX/Z8jTkWEG5+iwBnDQozxV0uFuTa5xO+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbxwy1cozk"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/11.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ScloeYsVLuX/Z8jTkWEG5+iwBnDQozxV0uFuTa5xO+E="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/12.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\12.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KF4jntjGMKw7p4GAyBTBnHGP7QKERFdIW3K4P6S3/DQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KF4jntjGMKw7p4GAyBTBnHGP7QKERFdIW3K4P6S3/DQ="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/12.owllsoch8m.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\12.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36567"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KF4jntjGMKw7p4GAyBTBnHGP7QKERFdIW3K4P6S3/DQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "owllsoch8m"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/12.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KF4jntjGMKw7p4GAyBTBnHGP7QKERFdIW3K4P6S3/DQ="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/13.fcyoc0wylp.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "954206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"38/UXKIPw1J11m3LT8j2O8YY3PykKY1szEl1DeSnNOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fcyoc0wylp"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/13.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-38/UXKIPw1J11m3LT8j2O8YY3PykKY1szEl1DeSnNOw="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/13.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "954206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"38/UXKIPw1J11m3LT8j2O8YY3PykKY1szEl1DeSnNOw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-38/UXKIPw1J11m3LT8j2O8YY3PykKY1szEl1DeSnNOw="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/14.bwc7vctui4.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\14.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "338087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C7zR4r2Lz6M1rlYxUdNiTj4cZum5DSwQxJvE9kkHJA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bwc7vctui4"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/14.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C7zR4r2Lz6M1rlYxUdNiTj4cZum5DSwQxJvE9kkHJA8="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/14.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\14.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "338087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C7zR4r2Lz6M1rlYxUdNiTj4cZum5DSwQxJvE9kkHJA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C7zR4r2Lz6M1rlYxUdNiTj4cZum5DSwQxJvE9kkHJA8="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/15.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "238160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jxpF/E0w29dC/wFtSQCfCzWH6B0YxW/ANxaQO8uC6N0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jxpF/E0w29dC/wFtSQCfCzWH6B0YxW/ANxaQO8uC6N0="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/15.zrqg7qaqkx.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "238160"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jxpF/E0w29dC/wFtSQCfCzWH6B0YxW/ANxaQO8uC6N0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zrqg7qaqkx"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/15.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jxpF/E0w29dC/wFtSQCfCzWH6B0YxW/ANxaQO8uC6N0="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/16.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1890584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UZfDBQdsUkBUspAbq+ZXgFuTXNBei6t2X6xokFvX5Iw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UZfDBQdsUkBUspAbq+ZXgFuTXNBei6t2X6xokFvX5Iw="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/16.l3hn9miccf.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1890584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UZfDBQdsUkBUspAbq+ZXgFuTXNBei6t2X6xokFvX5Iw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l3hn9miccf"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/16.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UZfDBQdsUkBUspAbq+ZXgFuTXNBei6t2X6xokFvX5Iw="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/17.b3uekwien3.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\17.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"10MpqKiqFSQuGSoPOLkw3EdNTeNAn/Zd7RncymfYl0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b3uekwien3"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/17.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-10MpqKiqFSQuGSoPOLkw3EdNTeNAn/Zd7RncymfYl0U="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/17.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\17.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"10MpqKiqFSQuGSoPOLkw3EdNTeNAn/Zd7RncymfYl0U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-10MpqKiqFSQuGSoPOLkw3EdNTeNAn/Zd7RncymfYl0U="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/18.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\18.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vPGz+nkFtthLqNw2edspDdU3u4IJKeXhIuFeUzTijFg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vPGz+nkFtthLqNw2edspDdU3u4IJKeXhIuFeUzTijFg="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/18.kymmkshxba.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\18.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vPGz+nkFtthLqNw2edspDdU3u4IJKeXhIuFeUzTijFg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kymmkshxba"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/18.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vPGz+nkFtthLqNw2edspDdU3u4IJKeXhIuFeUzTijFg="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/19.6q8zjis624.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\19.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7tE85oOL+RBRTXdlxsG5cS7jjnOGRdW2h7huD5XZFfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6q8zjis624"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/19.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7tE85oOL+RBRTXdlxsG5cS7jjnOGRdW2h7huD5XZFfI="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/19.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\19.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "466193"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7tE85oOL+RBRTXdlxsG5cS7jjnOGRdW2h7huD5XZFfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:31:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7tE85oOL+RBRTXdlxsG5cS7jjnOGRdW2h7huD5XZFfI="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/2.fkxfrkx5y7.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92447"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UY21455KqabNw8U+QztQ0bSIsFTxCBVEppyvfPasIT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkxfrkx5y7"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/2.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UY21455KqabNw8U+QztQ0bSIsFTxCBVEppyvfPasIT8="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/2.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "92447"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UY21455KqabNw8U+QztQ0bSIsFTxCBVEppyvfPasIT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UY21455KqabNw8U+QztQ0bSIsFTxCBVEppyvfPasIT8="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/3.bx8qjfhznw.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "648454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rw5TCcW+bo1tiL0kpO32x2iTH5MowOOXtlnG2PftAV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bx8qjfhznw"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rw5TCcW+bo1tiL0kpO32x2iTH5MowOOXtlnG2PftAV0="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/3.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "648454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rw5TCcW+bo1tiL0kpO32x2iTH5MowOOXtlnG2PftAV0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rw5TCcW+bo1tiL0kpO32x2iTH5MowOOXtlnG2PftAV0="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/4.0s6iiwzt9t.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MMt3FNEwwqDmOrWni+NDqwKSIGjuLs5XtXtHTlvPQHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0s6iiwzt9t"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MMt3FNEwwqDmOrWni+NDqwKSIGjuLs5XtXtHTlvPQHI="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/4.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MMt3FNEwwqDmOrWni+NDqwKSIGjuLs5XtXtHTlvPQHI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MMt3FNEwwqDmOrWni+NDqwKSIGjuLs5XtXtHTlvPQHI="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/5.9qwkwiz5lm.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TwV6flN84fTNzRk8No6AOdhI7n03YbmC/+3fY8bGHho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9qwkwiz5lm"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TwV6flN84fTNzRk8No6AOdhI7n03YbmC/+3fY8bGHho="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/5.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "346006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TwV6flN84fTNzRk8No6AOdhI7n03YbmC/+3fY8bGHho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TwV6flN84fTNzRk8No6AOdhI7n03YbmC/+3fY8bGHho="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/6.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "381820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTTImcV/b7yRbw4XNvE90UVxqwbGHVt9f9HxdsX7wSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTTImcV/b7yRbw4XNvE90UVxqwbGHVt9f9HxdsX7wSc="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/6.zfh1li4vng.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "381820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTTImcV/b7yRbw4XNvE90UVxqwbGHVt9f9HxdsX7wSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zfh1li4vng"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTTImcV/b7yRbw4XNvE90UVxqwbGHVt9f9HxdsX7wSc="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/7.1amgn3ehts.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yVd7Vp/DmtM8IZmZfRZz9hTwzbFOt1/vHsjn9LoDulc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1amgn3ehts"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yVd7Vp/DmtM8IZmZfRZz9hTwzbFOt1/vHsjn9LoDulc="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/7.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yVd7Vp/DmtM8IZmZfRZz9hTwzbFOt1/vHsjn9LoDulc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yVd7Vp/DmtM8IZmZfRZz9hTwzbFOt1/vHsjn9LoDulc="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/8.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9i2clb7dDmIoYys+jOqkvYXz0Ev4P73NmQMzzFA3ez8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9i2clb7dDmIoYys+jOqkvYXz0Ev4P73NmQMzzFA3ez8="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/8.y17ho2he46.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151691"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9i2clb7dDmIoYys+jOqkvYXz0Ev4P73NmQMzzFA3ez8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y17ho2he46"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9i2clb7dDmIoYys+jOqkvYXz0Ev4P73NmQMzzFA3ez8="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/9.ira63m8zc4.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/raiCk89QNdKPDfqAUeNYz1EdLDVNkfp26v7MmXm4aQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ira63m8zc4"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/raiCk89QNdKPDfqAUeNYz1EdLDVNkfp26v7MmXm4aQ="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/9.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60289"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/raiCk89QNdKPDfqAUeNYz1EdLDVNkfp26v7MmXm4aQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/raiCk89QNdKPDfqAUeNYz1EdLDVNkfp26v7MmXm4aQ="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/f-1.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YBPBQjYR+d0Us1n+wfp6hkhHyayZE0Tc7U2TfzPgR98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YBPBQjYR+d0Us1n+wfp6hkhHyayZE0Tc7U2TfzPgR98="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/f-1.k3qx1ke74k.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YBPBQjYR+d0Us1n+wfp6hkhHyayZE0Tc7U2TfzPgR98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k3qx1ke74k"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/f-1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YBPBQjYR+d0Us1n+wfp6hkhHyayZE0Tc7U2TfzPgR98="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/f-2.17lprh2s5b.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTapEKcTWOoHTeawWtW5Yi3QUy8Op//0wAGoA6Sczok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "17lprh2s5b"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/f-2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jTapEKcTWOoHTeawWtW5Yi3QUy8Op//0wAGoA6Sczok="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/f-2.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "424224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jTapEKcTWOoHTeawWtW5Yi3QUy8Op//0wAGoA6Sczok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:32:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jTapEKcTWOoHTeawWtW5Yi3QUy8Op//0wAGoA6Sczok="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/f-t-1.png",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-t-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TFV2P5m1225BFhldwv+GmErgt4fPSQW6Xib2l8Y8QGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:33:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TFV2P5m1225BFhldwv+GmErgt4fPSQW6Xib2l8Y8QGg="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/f-t-1.wfxchs4pn6.png",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-t-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75004"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TFV2P5m1225BFhldwv+GmErgt4fPSQW6Xib2l8Y8QGg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:33:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfxchs4pn6"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/f-t-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TFV2P5m1225BFhldwv+GmErgt4fPSQW6Xib2l8Y8QGg="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/f-t-2.png",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-t-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A15X9zHD1eQ1pMmujQ9KSrQY3IUj+rdohgXnPHpGm5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:33:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A15X9zHD1eQ1pMmujQ9KSrQY3IUj+rdohgXnPHpGm5w="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/f-t-2.zg6lejpnrn.png",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\f-t-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A15X9zHD1eQ1pMmujQ9KSrQY3IUj+rdohgXnPHpGm5w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:33:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zg6lejpnrn"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/f-t-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A15X9zHD1eQ1pMmujQ9KSrQY3IUj+rdohgXnPHpGm5w="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/profile.j1hljx4t4w.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1907365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h+DC48iXFFUfMX5loK7kqV6tUXc0uMg7LSmpfb9GS4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:33:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j1hljx4t4w"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/img/profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h+DC48iXFFUfMX5loK7kqV6tUXc0uMg7LSmpfb9GS4E="
+        }
+      ]
+    },
+    {
+      "Route": "end user/img/profile.jpg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\img\\profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1907365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h+DC48iXFFUfMX5loK7kqV6tUXc0uMg7LSmpfb9GS4E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 23:33:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h+DC48iXFFUfMX5loK7kqV6tUXc0uMg7LSmpfb9GS4E="
+        }
+      ]
+    },
+    {
+      "Route": "end user/style.css",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5692"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F1f8SsD3v3f7UPPShVPavPE2gUJbV68Kv5i7HKDNqdY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 05:42:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F1f8SsD3v3f7UPPShVPavPE2gUJbV68Kv5i7HKDNqdY="
+        }
+      ]
+    },
+    {
+      "Route": "end user/style.hq3weg8pnu.css",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5692"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F1f8SsD3v3f7UPPShVPavPE2gUJbV68Kv5i7HKDNqdY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 05:42:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hq3weg8pnu"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F1f8SsD3v3f7UPPShVPavPE2gUJbV68Kv5i7HKDNqdY="
+        }
+      ]
+    },
+    {
       "Route": "E-TicketMovies.bundle.scp.css",
       "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-TicketMovies.bundle.scp.css",
       "Selectors": [],
@@ -41256,7 +44058,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 20:47:35 GMT"
+          "Value": "Mon, 24 Mar 2025 20:55:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41293,7 +44095,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 20:47:35 GMT"
+          "Value": "Mon, 24 Mar 2025 20:55:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41338,7 +44140,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 20:47:35 GMT"
+          "Value": "Mon, 24 Mar 2025 20:55:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41383,7 +44185,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 20:47:35 GMT"
+          "Value": "Mon, 24 Mar 2025 20:55:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41476,88 +44278,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
-        }
-      ]
-    },
-    {
-      "Route": "images/cast/45607473-0fdc-40e5-ad78-fc21c3947c88.jpg",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\45607473-0fdc-40e5-ad78-fc21c3947c88.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16558"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1urnHtQxwy3d7CQvtGRXBu7jOO/wpubD+Na0/cq0g54=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 20:45:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1urnHtQxwy3d7CQvtGRXBu7jOO/wpubD+Na0/cq0g54="
-        }
-      ]
-    },
-    {
-      "Route": "images/cast/45607473-0fdc-40e5-ad78-fc21c3947c88.mdwtcchq5q.jpg",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\45607473-0fdc-40e5-ad78-fc21c3947c88.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16558"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1urnHtQxwy3d7CQvtGRXBu7jOO/wpubD+Na0/cq0g54=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 20:45:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mdwtcchq5q"
-        },
-        {
-          "Name": "label",
-          "Value": "images/cast/45607473-0fdc-40e5-ad78-fc21c3947c88.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1urnHtQxwy3d7CQvtGRXBu7jOO/wpubD+Na0/cq0g54="
         }
       ]
     },
@@ -42050,6 +44770,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-yYKXVT0Rw+7UbDY+WBkwr5OksMY3gIjLnCGNlStFwKs="
+        }
+      ]
+    },
+    {
+      "Route": "images/cast/ddff2712-6f26-4a2a-83bf-8bc6fa484467.png",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TIpRr0dV4K/YHG4GDKpSxUk839b9NuoAqEp/SIQZzoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 01:59:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TIpRr0dV4K/YHG4GDKpSxUk839b9NuoAqEp/SIQZzoY="
+        }
+      ]
+    },
+    {
+      "Route": "images/cast/ddff2712-6f26-4a2a-83bf-8bc6fa484467.w9tyx3oiib.png",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84537"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TIpRr0dV4K/YHG4GDKpSxUk839b9NuoAqEp/SIQZzoY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 01:59:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w9tyx3oiib"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cast/ddff2712-6f26-4a2a-83bf-8bc6fa484467.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TIpRr0dV4K/YHG4GDKpSxUk839b9NuoAqEp/SIQZzoY="
         }
       ]
     },
@@ -42628,8 +45430,8 @@
       ]
     },
     {
-      "Route": "images/movies/6d198fbe-75e5-4b72-9f90-72b50737bc56.o4epbr8b8s.png",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\6d198fbe-75e5-4b72-9f90-72b50737bc56.png",
+      "Route": "images/movies/1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -42638,64 +45440,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "81819"
+          "Value": "7260"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"OHU3dDPdafyBu1e9witVinw8mZGe9DCAboZeXJPlRaA=\""
+          "Value": "\"0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 19:35:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o4epbr8b8s"
-        },
-        {
-          "Name": "label",
-          "Value": "images/movies/6d198fbe-75e5-4b72-9f90-72b50737bc56.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OHU3dDPdafyBu1e9witVinw8mZGe9DCAboZeXJPlRaA="
-        }
-      ]
-    },
-    {
-      "Route": "images/movies/6d198fbe-75e5-4b72-9f90-72b50737bc56.png",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\6d198fbe-75e5-4b72-9f90-72b50737bc56.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "81819"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OHU3dDPdafyBu1e9witVinw8mZGe9DCAboZeXJPlRaA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 19:35:21 GMT"
+          "Value": "Mon, 24 Mar 2025 15:33:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -42705,13 +45462,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OHU3dDPdafyBu1e9witVinw8mZGe9DCAboZeXJPlRaA="
+          "Value": "sha256-0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4="
         }
       ]
     },
     {
-      "Route": "images/movies/afc78956-458f-4e0e-bc71-5d1bda340f84.jpg",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\afc78956-458f-4e0e-bc71-5d1bda340f84.jpg",
+      "Route": "images/movies/1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jr1pxdrzv4.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -42720,7 +45477,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "172458"
+          "Value": "7260"
         },
         {
           "Name": "Content-Type",
@@ -42728,48 +45485,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lCWWokbLdKzw5Gvp+OrCVhvZw7cB+J4LpktGdWGhOAg=\""
+          "Value": "\"0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 20:48:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lCWWokbLdKzw5Gvp+OrCVhvZw7cB+J4LpktGdWGhOAg="
-        }
-      ]
-    },
-    {
-      "Route": "images/movies/afc78956-458f-4e0e-bc71-5d1bda340f84.wfnbjvwbed.jpg",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\afc78956-458f-4e0e-bc71-5d1bda340f84.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "172458"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lCWWokbLdKzw5Gvp+OrCVhvZw7cB+J4LpktGdWGhOAg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 20:48:50 GMT"
+          "Value": "Mon, 24 Mar 2025 15:33:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -42779,15 +45499,179 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wfnbjvwbed"
+          "Value": "jr1pxdrzv4"
         },
         {
           "Name": "label",
-          "Value": "images/movies/afc78956-458f-4e0e-bc71-5d1bda340f84.jpg"
+          "Value": "images/movies/1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lCWWokbLdKzw5Gvp+OrCVhvZw7cB+J4LpktGdWGhOAg="
+          "Value": "sha256-0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 15:28:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jr1pxdrzv4.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 15:28:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jr1pxdrzv4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 15:23:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/9a160023-888e-4c25-975c-9f0030f4c9fd.jr1pxdrzv4.jpeg",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7260"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 15:23:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jr1pxdrzv4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4="
         }
       ]
     },
@@ -49270,6 +52154,170 @@
       ]
     },
     {
+      "Route": "login.css",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eLYFtpkqujdTzgh6t36o6VB/bwJJcas4AyoQQgH8jFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:12:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eLYFtpkqujdTzgh6t36o6VB/bwJJcas4AyoQQgH8jFQ="
+        }
+      ]
+    },
+    {
+      "Route": "login.o45uthys9n.css",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eLYFtpkqujdTzgh6t36o6VB/bwJJcas4AyoQQgH8jFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Mar 2025 18:12:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o45uthys9n"
+        },
+        {
+          "Name": "label",
+          "Value": "login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eLYFtpkqujdTzgh6t36o6VB/bwJJcas4AyoQQgH8jFQ="
+        }
+      ]
+    },
+    {
+      "Route": "logo.bx9uenonq2.png",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v1d0azenBeNhKly7dlsfvQ9VbiFru0wBQkUhDFzptqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Mar 2019 15:23:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bx9uenonq2"
+        },
+        {
+          "Name": "label",
+          "Value": "logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v1d0azenBeNhKly7dlsfvQ9VbiFru0wBQkUhDFzptqA="
+        }
+      ]
+    },
+    {
+      "Route": "logo.png",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v1d0azenBeNhKly7dlsfvQ9VbiFru0wBQkUhDFzptqA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 30 Mar 2019 15:23:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v1d0azenBeNhKly7dlsfvQ9VbiFru0wBQkUhDFzptqA="
+        }
+      ]
+    },
+    {
       "Route": "movie-ticket.kelaantnla.png",
       "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\movie-ticket.png",
       "Selectors": [],
@@ -51316,170 +54364,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-JMjk5dRnX3ZLcrihYQJ6VJluaoA7j4gcE+w62L2zTyM="
-        }
-      ]
-    },
-    {
-      "Route": "test.3r8b2a0bt1.css",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\test.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 15:45:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
-        },
-        {
-          "Name": "label",
-          "Value": "test.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
-        }
-      ]
-    },
-    {
-      "Route": "test.css",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\test.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 15:45:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
-        }
-      ]
-    },
-    {
-      "Route": "test1.3r8b2a0bt1.js",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\test1.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 12:56:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3r8b2a0bt1"
-        },
-        {
-          "Name": "label",
-          "Value": "test1.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
-        }
-      ]
-    },
-    {
-      "Route": "test1.js",
-      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\test1.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Mar 2025 12:56:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
         }
       ]
     },

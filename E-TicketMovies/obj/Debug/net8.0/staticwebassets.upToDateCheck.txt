@@ -2,14 +2,41 @@ wwwroot\cinema.png
 wwwroot\css\custom.css
 wwwroot\css\sb-admin-2.css
 wwwroot\css\sb-admin-2.min.css
+wwwroot\end user\account.css
+wwwroot\end user\app.js
+wwwroot\end user\img\1.jpeg
+wwwroot\end user\img\10.jpg
+wwwroot\end user\img\11.jpg
+wwwroot\end user\img\12.jpg
+wwwroot\end user\img\13.jpg
+wwwroot\end user\img\14.jpg
+wwwroot\end user\img\15.jpg
+wwwroot\end user\img\16.jpg
+wwwroot\end user\img\17.jpg
+wwwroot\end user\img\18.jpg
+wwwroot\end user\img\19.jpg
+wwwroot\end user\img\2.jpeg
+wwwroot\end user\img\3.jpg
+wwwroot\end user\img\4.jpg
+wwwroot\end user\img\5.jpg
+wwwroot\end user\img\6.jpg
+wwwroot\end user\img\7.jpg
+wwwroot\end user\img\8.jpg
+wwwroot\end user\img\9.jpg
+wwwroot\end user\img\f-1.jpg
+wwwroot\end user\img\f-2.jpg
+wwwroot\end user\img\f-t-1.png
+wwwroot\end user\img\f-t-2.png
+wwwroot\end user\img\profile.jpg
+wwwroot\end user\style.css
 wwwroot\favicon.ico
-wwwroot\images\cast\45607473-0fdc-40e5-ad78-fc21c3947c88.jpg
 wwwroot\images\cast\cast1.png
 wwwroot\images\cast\cast2.png
 wwwroot\images\cast\cast3.png
 wwwroot\images\cast\cast4.png
 wwwroot\images\cast\cast5.png
 wwwroot\images\cast\cast6.png
+wwwroot\images\cast\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png
 wwwroot\images\cinema\DisParturientMontes.jpeg
 wwwroot\images\cinema\pic1.jpg
 wwwroot\images\cinema\pic2.jpg
@@ -17,8 +44,9 @@ wwwroot\images\cinema\Quis.tiff
 wwwroot\images\cinema\Sagittis.tiff
 wwwroot\images\cinema\SitAmetSem.tiff
 wwwroot\images\logo.png
-wwwroot\images\movies\6d198fbe-75e5-4b72-9f90-72b50737bc56.png
-wwwroot\images\movies\afc78956-458f-4e0e-bc71-5d1bda340f84.jpg
+wwwroot\images\movies\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg
+wwwroot\images\movies\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg
+wwwroot\images\movies\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg
 wwwroot\images\movies\movie1.png
 wwwroot\images\movies\movie10.png
 wwwroot\images\movies\movie2.png
@@ -98,6 +126,8 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\login.css
+wwwroot\logo.png
 wwwroot\movie-ticket.png
 wwwroot\scss\_buttons.scss
 wwwroot\scss\_cards.scss
@@ -123,8 +153,6 @@ wwwroot\scss\utilities\_progress.scss
 wwwroot\scss\utilities\_rotate.scss
 wwwroot\scss\utilities\_text.scss
 wwwroot\tablesCss\tables.css
-wwwroot\test.css
-wwwroot\test1.js
 wwwroot\vendor\bootstrap\js\bootstrap.bundle.js
 wwwroot\vendor\bootstrap\js\bootstrap.bundle.js.map
 wwwroot\vendor\bootstrap\js\bootstrap.bundle.min.js

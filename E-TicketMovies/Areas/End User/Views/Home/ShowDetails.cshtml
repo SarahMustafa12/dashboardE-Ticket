@@ -1,4 +1,7 @@
-﻿
+﻿@{
+
+	int cartNum = Convert.ToInt32(ViewBag.Count ?? 0);
+}
  @model Movie
  <section class="py-5">
 	<div class="container px-4 px-lg-5 my-5">
@@ -28,7 +31,7 @@
                         <div class="d-flex flex-wrap">
                             @foreach (var actor in Model.Actors)
                             {
-								<a href="/End%20User/Home/ActorDetails/@Model.Id/@actor.ActorId"
+								<a href="/End%20User/Home/ActorDetails?movieId=@Model.Id&actorId=@actor.ActorId"
                                    target="_blank"
                                    class="me-3 text-decoration-none">
                                     <img src="~/images/cast/@actor.Actor.ProfilePicture"

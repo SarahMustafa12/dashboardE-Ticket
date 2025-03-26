@@ -1,0 +1,80 @@
+﻿@using E_TicketMovies.View_Models
+@model RegisterVM
+
+<div class="container-fluid">
+    <!-- Page Heading -->
+    <h1 class="h3 mb-4 text-gray-800">Create New User</h1>
+
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <form asp-action="Create" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="row">
+                    <!-- Username -->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="UserName" class="text-primary font-weight-bold">Username</label>
+                            <input asp-for="UserName" class="form-control"  />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Email" class="text-primary font-weight-bold">Email</label>
+                            <input asp-for="Email" class="form-control"  />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Password" class="text-primary font-weight-bold">Password</label>
+                            <input asp-for="Password" type="password" class="form-control"  />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Confirm Password -->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="ConfirmPassword" class="text-primary font-weight-bold">Confirm Password</label>
+                            <input asp-for="ConfirmPassword" type="password" class="form-control"  />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="text-primary font-weight-bold">Select Role</label>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="roleDropdownButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Role
+                            </button>
+                            <div class="dropdown-menu p-3" aria-labelledby="roleDropdownButton" style="min-width: 250px;">
+                                @foreach (var role in ViewBag.Roles)
+                                {
+                                    <div class="dropdown-item">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="role_@role" name="Roles" value="@role" >
+                                            <label class="custom-control-label" for="role_@role">@role</label>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Submit Button -->
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-user-plus"></i> Create User
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

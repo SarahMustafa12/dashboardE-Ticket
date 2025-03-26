@@ -89,16 +89,17 @@
                         </div>
                       @*  ---------------- *@
                         <div class="mb-3">
-                            <select class="form-control" id="actorDropdown" name="CategoryId">
+                            <select class="form-control" id="actorDropdown" asp-for="CategoryId" >
                                 <option value="" disabled selected>Select Category</option>
                                 @foreach(var item in ViewBag.Category){
                                     <option value="@item.Id">@item.Name</option>
                                 }
                             </select>
+                            <span class="text-danger" asp-validation-for="CategoryId"></span>
                         </div>
 
                         <div class="mb-3">
-                            <select class="form-control" id="actorDropdown" name="MovieStatus">
+                            <select class="form-control" id="actorDropdown" asp-for="MovieStatus">
                                 <option value="" disabled selected>Select Status</option>
                                
                                     <option value="0">Coming Soon</option>
@@ -106,10 +107,11 @@
                                     <option value="2">Expired</option>
 
                             </select>
+                            <span class="text-danger" asp-validation-for="MovieStatus"></span>
                         </div>
 
                         <div class="mb-3">
-                            <select class="form-control" id="actorDropdown" name="CinemaId">
+                            <select class="form-control" id="actorDropdown" asp-for="CinemaId">
                                 <option value="" disabled selected>Select Cinema</option>
                                 @foreach (var item in ViewBag.Cinema)
                                 {
@@ -117,12 +119,9 @@
                                 }
                                
                             </select>
+                            <span class="text-danger" asp-validation-for="CinemaId"></span>
                         </div>
 
-
-                            
-
-                    
                         
 
                         <button type="submit" class="btn btn-primary">Add</button>
@@ -133,14 +132,7 @@
         </div>
     </div>
 </div>
-<script>
-    flatpickr("#StartDate", {
-        enableTime: true,
-        dateFormat: "d-m-Y H:i",
-        time_24hr: true,
-        theme: "material_blue" // You can change the theme to dark, airbnb, etc.
-    });
-</script>
+
 
 <script>
     document.getElementById('MovieLogo').addEventListener('change', function () {
