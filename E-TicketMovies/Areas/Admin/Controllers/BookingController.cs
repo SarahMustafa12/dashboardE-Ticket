@@ -18,26 +18,65 @@ namespace E_TicketMovies.Areas.Admin.Controllers
             this.userManager = userManager;
             this.bookingItemRepository = bookingItemRepository;
         }
-        public IActionResult Index(int query, int page)
+        public IActionResult Index(int? page = 1, string? query = null, bool? failed = false)
         {
-            var allBookings = bookingRepository.Get(includes: [e=>e.ApplicationUser]);
-            //if (allBookings != null)
-            //{
-            //     allBookings = bookingRepository.Get(e=>e.Id == query); 
-                
-            //}
+            List<Booking> allBookings;
+
+            if (failed == true)
+            {
+                // Get failed bookings (where PaymentStripId is null)
+                allBookings = (List<Booking>)bookingRepository.Get(e => e.PaymentStripId == null, includes: [e => e.ApplicationUser]);
+            }
+            else
+            {
+                allBookings = (List<Booking>)bookingRepository.Get(includes: [e => e.ApplicationUser]);
+
+                // Optional: Add search filter if query is provided
+                if (!string.IsNullOrEmpty(query))
+                {
+                    allBookings = allBookings.Where(b => b.ApplicationUser.UserName.Contains(query)).ToList();
+                }
+            }
+
+            // Pagination
             int totalCount = allBookings.Count();
             int pageSize = 3;
             int totalPages = (int)Math.Ceiling((double)totalCount / pageSize);
 
             if (page > totalPages && totalPages > 0)
-                return RedirectToAction("NotFoundPage", "Home", new { area = "End User" });
+                return RedirectToAction("NotFoundPage", "Home", new { area = "EndUser" });
 
-            allBookings = allBookings.Skip((page - 1) * pageSize).Take(pageSize);
+            allBookings = allBookings.Skip(((int)page - 1) * pageSize).Take(pageSize).ToList();
 
             ViewBag.totalPages = totalPages;
 
             return View(allBookings.ToList());
         }
+
+        //public IActionResult Index(int query, int page, List<Booking> failed)
+        //{
+        //    var allBookings = bookingRepository.Get(includes: [e=>e.ApplicationUser]);
+
+        //    failed = bookingRepository.Get(e=>e.PaymentStripId == null ,includes: [e => e.ApplicationUser]).ToList();
+
+
+        //    //if (allBookings != null)
+        //    //{
+        //    //    allBookings = bookingRepository.Get(e => e.Id == query);
+
+        //    //}
+        //    int totalCount = allBookings.Count();
+        //    int pageSize = 3;
+        //    int totalPages = (int)Math.Ceiling((double)totalCount / pageSize);
+
+        //    if (page > totalPages && totalPages > 0)
+        //        return RedirectToAction("NotFoundPage", "Home", new { area = "End User" });
+
+        //    allBookings = allBookings.Skip((page - 1) * pageSize).Take(pageSize);
+
+        //    ViewBag.totalPages = totalPages;
+
+        //    return View(allBookings.ToList());
+        //}
     }
 }

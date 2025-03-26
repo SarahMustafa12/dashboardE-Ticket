@@ -24,11 +24,11 @@ namespace E_TicketMovies.Models
         [Required(ErrorMessage = "it is required")]
         public DateTime EndDate { get; set; }
         [Required(ErrorMessage = "it is required")]
-        public int MovieStatus { get; set; }
+        public int? MovieStatus { get; set; }
         [Required(ErrorMessage = "it is required")]
-        public int CinemaId { get; set; }
+        public int? CinemaId { get; set; }
         [Required(ErrorMessage = "it is required")]
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
         [ValidateNever]
         public  Category Category { get; set; } = null!;
         [ValidateNever]

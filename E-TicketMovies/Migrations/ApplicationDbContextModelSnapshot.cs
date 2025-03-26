@@ -51,7 +51,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Actors");
+                    b.ToTable("Actors", (string)null);
                 });
 
             modelBuilder.Entity("E_TicketMovies.Models.ActorMovie", b =>
@@ -66,7 +66,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasIndex("ActorId");
 
-                    b.ToTable("ActorMovies");
+                    b.ToTable("ActorMovies", (string)null);
                 });
 
             modelBuilder.Entity("E_TicketMovies.Models.ApplicationUser", b =>
@@ -171,7 +171,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasIndex("ApplicationUserId");
 
-                    b.ToTable("Bookings");
+                    b.ToTable("Bookings", (string)null);
                 });
 
             modelBuilder.Entity("E_TicketMovies.Models.BookingItem", b =>
@@ -200,7 +200,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasIndex("MovieId");
 
-                    b.ToTable("BookingItems");
+                    b.ToTable("BookingItems", (string)null);
                 });
 
             modelBuilder.Entity("E_TicketMovies.Models.Cart", b =>
@@ -218,7 +218,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasIndex("ApplicationUserId");
 
-                    b.ToTable("Carts");
+                    b.ToTable("Carts", (string)null);
                 });
 
             modelBuilder.Entity("E_TicketMovies.Models.Category", b =>
@@ -236,7 +236,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("E_TicketMovies.Models.Cinema", b =>
@@ -263,7 +263,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Cinemas");
+                    b.ToTable("Cinemas", (string)null);
                 });
 
             modelBuilder.Entity("E_TicketMovies.Models.Movie", b =>
@@ -312,7 +312,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasIndex("CinemaId");
 
-                    b.ToTable("Movies");
+                    b.ToTable("Movies", (string)null);
                 });
 
             modelBuilder.Entity("E_TicketMovies.View_Models.LoginVM", b =>
@@ -336,7 +336,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("LoginVM");
+                    b.ToTable("LoginVM", (string)null);
                 });
 
             modelBuilder.Entity("E_TicketMovies.View_Models.RegisterVM", b =>
@@ -365,7 +365,7 @@ namespace E_TicketMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("RegisterVM");
+                    b.ToTable("RegisterVM", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

@@ -702,24 +702,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cast\cast6.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cast\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png'))">
-      <SourceType>Package</SourceType>
-      <SourceId>E-TicketMovies</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/E-TicketMovies</BasePath>
-      <RelativePath>images/cast/ddff2712-6f26-4a2a-83bf-8bc6fa484467.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w9tyx3oiib</Fingerprint>
-      <Integrity>TIpRr0dV4K/YHG4GDKpSxUk839b9NuoAqEp/SIQZzoY=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cast\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cinema\DisParturientMontes.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>E-TicketMovies</SourceId>
@@ -845,60 +827,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo.png'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\movies\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>E-TicketMovies</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/E-TicketMovies</BasePath>
-      <RelativePath>images/movies/1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jr1pxdrzv4</Fingerprint>
-      <Integrity>0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\movies\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\movies\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>E-TicketMovies</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/E-TicketMovies</BasePath>
-      <RelativePath>images/movies/3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jr1pxdrzv4</Fingerprint>
-      <Integrity>0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\movies\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\movies\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>E-TicketMovies</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/E-TicketMovies</BasePath>
-      <RelativePath>images/movies/9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jr1pxdrzv4</Fingerprint>
-      <Integrity>0aUdnhe88MbpZhZXcvqYAoud6UtoiNxRzvKRWLbS3d4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\movies\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\movies\movie1.png'))">
       <SourceType>Package</SourceType>

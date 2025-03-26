@@ -11,29 +11,85 @@
 </div>
 
 <!-- Filter Section -->
+@* <section class="py-4 bg-light" style="background-color: #233142!important; margin-top: 20px; padding: 30px 0; box-shadow: 0 2px 5px rgb(130, 123, 123)">
+    <div class="container px-4 px-lg-5">
+        <form id="searchForm" method="GET" action="/End%20User/Home">
+            <div class="row">
+                <!-- Category Filter -->
+                <div class="col-md-3">
+                    <select name="categoryName" class="form-select" id="categorySelect">
+                        <option value="" selected disabled>Select a category</option>
+                        @foreach (var item in ViewBag.categories)
+                        {
+                            <option value="@item.Name">@item.Name</option>
+                        }
+                    </select>
+                </div>
+
+                <!-- Cinema Filter -->
+                <div class="col-md-3">
+                    <select name="cinemaName" class="form-select" id="cinemaSelect">
+                        <option value="" selected disabled>Select a cinema</option>
+                        @foreach (var item in ViewBag.Cinemas)
+                        {
+                            <option value="@item.Name">@item.Name</option>
+                        }
+                    </select>
+                </div>
+
+                <!-- Search by Name -->
+                <div class="col-md-3">
+                    <input type="text" class="form-control" placeholder="Search by name" name="movieName" id="movieNameInput" />
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-md-3">
+                    <button type="submit" class="btn btn-dark w-50">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<script>
+    document.getElementById("searchForm").addEventListener("submit", function(event) {
+        let movieInput = document.getElementById("movieNameInput");
+        let movieName = movieInput.value.trim();
+
+        if (!movieName) {
+            movieInput.removeAttribute("name"); // Remove the movieName from the form submission if empty
+        }
+    });
+</script> *@
+
+
 <section class="py-4 bg-light" style="background-color: #233142!important; margin-top: 20px; padding: 30px 0; box-shadow: 0 2px 5px rgb(130, 123, 123)">
     <div class="container px-4 px-lg-5">
         <form>
             <div class="row">
                 <!-- Category Filter -->
+              
                 <div class="col-md-3">
-                    <select name="categoryName" class="form-select">
-                        <option>All Categories</option>
+                    <select name="categoryName" class="form-select" id="categorySelect">
+                         <option value="" selected disabled>Select a category</option>
                         @foreach (var item in ViewBag.categories)
                         {
-                        <option value="@item.Name">@item.Name</option>
+                            <option value="@item.Name">@item.Name</option>
                         }
                     </select>
                 </div>
+
+                <!-- CinemaFilter -->
                 <div class="col-md-3">
-                    <select name="cinemaName" class="form-select">
-                        <option>Cinema</option>
+                    <select name="cinemaName" class="form-select" id="cinemaSelect">
+                         <option value="" selected disabled>Select a cinema</option>
                         @foreach (var item in ViewBag.Cinemas)
                         {
-                        <option value="@item.Name">@item.Name</option>
+                            <option value="@item.Name">@item.Name</option>
                         }
                     </select>
                 </div>
+
 
                 <!-- Search by Name -->
                 <div class="col-md-3">
@@ -50,6 +106,8 @@
         </form>
     </div>
 </section>
+
+
 <section id="movies" class="container py-5">
 @*     <h1 style="color: #233142;" class="text-center mb-4">All Movies</h1> *@
 

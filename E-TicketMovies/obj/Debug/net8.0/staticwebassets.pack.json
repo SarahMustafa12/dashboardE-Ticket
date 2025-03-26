@@ -157,10 +157,6 @@
       "PackagePath": "staticwebassets\\images\\cast\\cast6.png"
     },
     {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cast\\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png",
-      "PackagePath": "staticwebassets\\images\\cast\\ddff2712-6f26-4a2a-83bf-8bc6fa484467.png"
-    },
-    {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\cinema\\DisParturientMontes.jpeg",
       "PackagePath": "staticwebassets\\images\\cinema\\DisParturientMontes.jpeg"
     },
@@ -187,18 +183,6 @@
     {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
-    },
-    {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg",
-      "PackagePath": "staticwebassets\\images\\movies\\1e47f5c1-c8b9-47b4-99ed-d1d25c03d5f9.jpeg"
-    },
-    {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg",
-      "PackagePath": "staticwebassets\\images\\movies\\3ad86a8a-9bda-4fb1-ae27-6a36a8e4222d.jpeg"
-    },
-    {
-      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg",
-      "PackagePath": "staticwebassets\\images\\movies\\9a160023-888e-4c25-975c-9f0030f4c9fd.jpeg"
     },
     {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\images\\movies\\movie1.png",

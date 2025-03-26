@@ -89,7 +89,7 @@
                         </div>
                       @*  ---------------- *@
                         <div class="mb-3">
-                            <select class="form-control" id="actorDropdown" asp-for="CategoryId" >
+                            <select class="form-control" id="actorDropdown" asp-for="CategoryId">
                                 <option value="" disabled selected>Select Category</option>
                                 @foreach(var item in ViewBag.Category){
                                     <option value="@item.Id">@item.Name</option>

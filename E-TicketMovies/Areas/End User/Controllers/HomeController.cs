@@ -45,15 +45,16 @@ namespace E_TicketMovies.Controllers
             ViewBag.categories = categories;
             ViewBag.Cinemas = allcinema;
 
-            if (movieName != null)
+            if (movieName != null && movieName.Length != 0)
             {
                 movies = movies.Where(e => e.Name.Contains(movieName));
-            }
-            if (categoryName != null)
+            };
+
+            if (categoryName != null && categoryName.Length != 0)
             {
                 movies = movies.Where(e => e.Category.Name == categoryName);
             }
-            if (cinemaName != null)
+            if (cinemaName != null && cinemaName.Length != 0)
             {
                 movies = movies.Where(e => e.Cinema.Name == cinemaName);
             }
@@ -89,16 +90,15 @@ namespace E_TicketMovies.Controllers
             return View(categories.ToList());
         }
         [HttpPost]
-        // when i click on button book now would add the movie to the cart
+        // when i click on button book now, would add the movie to the cart
         [Authorize]
         public IActionResult BookTicket(int movieId)
         {
             var currentUser = userManager.GetUserId(User);
             var target = dbContext.Movies.FirstOrDefault(e => e.Id == movieId).Id;
-            var moviesInCart = dbContext.Carts.Where(e => e.MovieId == movieId).AsNoTracking().FirstOrDefault();
-            if (moviesInCart != null)
+            var moviesInCart = dbContext.Carts.Where(e => e.MovieId == movieId && e.ApplicationUserId == currentUser).AsNoTracking().FirstOrDefault();
+            if (moviesInCart != null )
             {
-
                 if (moviesInCart.MovieId == target && currentUser == moviesInCart.ApplicationUserId)
                 {
                     moviesInCart.Count++;
@@ -106,6 +106,7 @@ namespace E_TicketMovies.Controllers
                     dbContext.SaveChanges();
 
                 }
+               
             }
             else
             {
@@ -118,7 +119,8 @@ namespace E_TicketMovies.Controllers
                 dbContext.Carts.Add(cart);
                 dbContext.SaveChanges();
             }
-        
+
+           
             int numItemsInTheCart = dbContext.Carts.Count();
             ViewData[nameof(numItemsInTheCart)] = numItemsInTheCart;
             return RedirectToAction("Index", "Home", new {area = "End User"});  
