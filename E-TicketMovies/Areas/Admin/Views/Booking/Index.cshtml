@@ -15,11 +15,25 @@
     <!-- Bookings Table -->
     <div class="card shadow mb-4">
         <div class="card-header py-3 d-flex justify-content-between align-items-center">
-            <h6 class="m-0 font-weight-bold text-primary">Booking List</h6>
-            <a href="/Admin/Booking/Index?failed=true" class="btn btn-primary btn-icon-split">
+           
+            <a href="/Admin/Booking/Index" class="btn btn-primary btn-icon-split">
 
-                <span class="text">incomplete Booking</span>
+                <h6 class="text">All Booking List</h6>
             </a>
+            <a href="/Admin/Booking/Index?refunded=true" class="btn btn-primary btn-icon-split">
+
+                <h6 class="text">Refunded Booking</h6>
+            </a>
+
+            <a href="/Admin/Booking/Index?cancelled=true" class="btn btn-primary btn-icon-split">
+
+                <h6 class="text">Canceled Booking</h6>
+            </a>
+            <a href="/Admin/Booking/Index?booked=true" class="btn btn-primary btn-icon-split">
+
+                <h6 class="text">Completed Booking</h6>
+            </a>
+
             <form method="get" action="/Admin/Booking/Index" class="form-inline">
                 <div class="input-group">
                     <input type="text" class="form-control bg-light small" name="query" placeholder="Search for..."
@@ -53,27 +67,49 @@
                                 <td>@item.ApplicationUser.UserName</td>
                                 <td>@item.ApplicationUser.Email</td>
                                 <td> @item.BookingTime</td>
-                                <th>
-                                    @(item.Status? "Booked" : "Cancelled or Refunded")
-
-
-                                </th>
-                                <th>@(item.PaymentStatus? "Sucsess" : "Failed")</th>
-
+                                <td>
+                                    @if (item.Status && item.PaymentStatus)
+                                    {
+                                        @:Booked
+                                    }
+                                    else if (!item.Status && item.PaymentStatus)
+                                    {
+                                        @:Refund Pending
+                                    }
+                                    else if (!item.Status && !item.PaymentStatus)
+                                    {
+                                        @:Refund
+                                    }
+                                </td>
+                                <td>
+                                    @if (item.PaymentStatus)
+                                    {
+                                        @:Paid
+                                    }
+                                    else
+                                    {
+                                        @:Refunded
+                                    }
+                                </td>
 
                                 <td>
-                                    @*   <a href="/Admin/Booking/Edit/@item.Id" class="btn btn-warning btn-sm">
-                                            <i class="fas fa-edit"></i> Edit
-                                        </a> *@
-                                    @if (item.PaymentStatus)
+                                      <a href="/Admin/Booking/ShowDetails/@item.Id" class="btn btn-warning btn-sm">
+                                            <i class="fas fa-edit"></i> Show Booking
+                                        </a>
+                                    @if (item.Status)
                                     {
                                         <button class="btn btn-danger btn-sm" onclick="confirmDelete(@item.Id)" disabled>
                                             <i class="fas fa-trash"></i> Refund
                                         </button>
                                     }
-                                    else
+                                    else if (!item.Status && item.PaymentStatus)
                                     {
                                         <button class="btn btn-danger btn-sm" onclick="confirmDelete(@item.Id)">
+                                            <i class="fas fa-trash"></i> Refund
+                                        </button>
+                                    }
+                                    else {
+                                        <button class="btn btn-danger btn-sm" onclick="confirmDelete(@item.Id)" disabled>
                                             <i class="fas fa-trash"></i> Refund
                                         </button>
                                     }
@@ -115,11 +151,11 @@
             showCancelButton: true,
             confirmButtonColor: "#143D60",
             cancelButtonColor: "#6c757d",
-            confirmButtonText: "Yes, delete it!",
+            confirmButtonText: "Yes, Refund It!",
             cancelButtonText: "Cancel"
         }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href = "/Admin/Booking/Delete/" + bookingId;
+                window.location.href = "/Admin/Booking/Refund/" + bookingId;
             }
         });
     }

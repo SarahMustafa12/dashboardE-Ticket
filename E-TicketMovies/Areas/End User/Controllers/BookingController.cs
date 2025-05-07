@@ -1,5 +1,6 @@
 ﻿using E_TicketMovies.Models;
 using E_TicketMovies.Repositories.IRepositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Stripe;
@@ -41,33 +42,25 @@ namespace E_TicketMovies.Areas.End_User.Controllers
                return View(bookingItems.ToList());
         }
 
-        public IActionResult Refund(int id)
+        public IActionResult Canceled(int id)
         {
             var currrentUser = userManager.GetUserId(User);
             var booking = bookingRepository.GetOne(e => e.Id == id && currrentUser == e.ApplicationUserId);
-            if (booking != null)
+            if(booking != null)
             {
-                if (booking.PaymentStatus == true && booking.PaymentStripId != null)
+
+                if (booking.Status == true && booking.PaymentStripId != null)
                 {
-                    var service = new SessionService();
-                    var session = service.Get(booking.SessionId);
-                    var refundOptions = new RefundCreateOptions { 
-                        PaymentIntent = booking.PaymentStripId,
-                        Amount =(long)booking.TotalPrice,
-                        Reason = RefundReasons.RequestedByCustomer
-                    };
-                    var refundService = new RefundService();
-                    var refundSesstion = refundService.Create(refundOptions);
-
-                    booking.PaymentStatus = false;
-                    booking.PaymentStripId = null;
-                    booking.Status = false;
-                    bookingRepository.Commit();
+                    booking.Status = false; // canceled 
+                    booking.PaymentStatus = true; 
+                    bookingRepository.Update(booking);  
+                    bookingRepository.Commit(); 
                 }
-
-
             }
-            return View();
+            return RedirectToAction("Index", "Booking", new { area = "End User" });
+
         }
+       
+        
     }
 }

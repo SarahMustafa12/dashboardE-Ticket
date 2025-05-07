@@ -82,16 +82,48 @@
             </thead>
             <tbody>
                 @foreach(var item in Model){
-                <tr>
-                    <th scope="row">@item.Id</th>
-                    <td>@item.BookingTime</td>
-                    <td>@item.Status</td>
-                    <td>@item.PaymentStatus</td>
-                    <td>@item.TotalPrice</td>
+                    <tr>
+                        <th scope="row">@item.Id</th>
+                        <td>@item.BookingTime</td>
+                        <td>
+                            @if (item.Status && item.PaymentStatus)
+                            {
+                                @:Booked
+                            }
+                            else if (!item.Status && item.PaymentStatus)
+                            {
+                                @:Refund Pending
+                            }
+                            else if (!item.Status && !item.PaymentStatus)
+                            {
+                                @:Refunded
+                            }
+
+                        </td>
+                        <td>
+                            @if (item.PaymentStatus)
+                            {
+                                @:Paid
+                            }
+                            else
+                            {
+                                @:Refunded
+                            }
+                        </td>
+                        <td>@item.TotalPrice</td>
                         <td>
                             <a href="/End%20User/Booking/BookingDetalis/@item.Id" class="btn btn-info">Show Detalis</a>
-                            <a href="/End%20User/Booking/Refund/@item.Id" class="btn btn-dark">Refund</a>
-                            </td>
+                            @if (item.Status)
+                            {
+                                <a href="/End%20User/Booking/Canceled/@item.Id" class="btn btn-dark">Refund</a>
+
+                            }
+                            else
+                            {
+                                <button href="/End%20User/Booking/Canceled/@item.Id" class="btn btn-dark" disabled  >Refund</button>
+
+                            }
+                        </td>
                 </tr>
                 }
             </tbody>

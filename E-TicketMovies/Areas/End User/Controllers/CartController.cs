@@ -82,14 +82,13 @@ namespace E_TicketMovies.Areas.End_User.Controllers
             var currentUser = userManager.GetUserId(User);
             var itemsInCart = cartRepository.Get(e => e.ApplicationUserId == currentUser, includes: [e => e.Movie, e => e.Movie.Cinema]);
             var booking = new Booking();
-            
             booking.ApplicationUserId = currentUser;
             booking.BookingTime = DateTime.Now; 
             booking.TotalPrice =(long)itemsInCart.Sum(e => e.Movie.Price * e.Count);
 
             bookingRepository.Create(booking);
             bookingRepository.Commit();
-            
+
 
             var options = new SessionCreateOptions
             {
@@ -121,7 +120,8 @@ namespace E_TicketMovies.Areas.End_User.Controllers
             var service = new SessionService();
             var session = service.Create(options);
             booking.SessionId = session.Id;
-            bookingRepository.Commit();
+                bookingRepository.Commit();
+
             List<BookingItem> bookingItems = [];
             foreach (var item in itemsInCart) 
             {

@@ -52,13 +52,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\E-TicketMovies.lj8qc4addl.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wanRFwKLIOB3arXgMGVarNePNv0qTz8Wcw8bdJ2C0Xg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wanRFwKLIOB3arXgMGVarNePNv0qTz8Wcw8bdJ2C0Xg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 15:01:27 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wanRFwKLIOB3arXgMGVarNePNv0qTz8Wcw8bdJ2C0Xg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 16:43:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/E-TicketMovies/E-TicketMovies.lj8qc4addl.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\E-TicketMovies.lj8qc4addl.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lj8qc4addl"},{"Name":"integrity","Value":"sha256-wanRFwKLIOB3arXgMGVarNePNv0qTz8Wcw8bdJ2C0Xg="},{"Name":"label","Value":"_content/E-TicketMovies/E-TicketMovies.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wanRFwKLIOB3arXgMGVarNePNv0qTz8Wcw8bdJ2C0Xg=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 15:01:27 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wanRFwKLIOB3arXgMGVarNePNv0qTz8Wcw8bdJ2C0Xg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 25 Apr 2025 16:43:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/E-TicketMovies/end user/account.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\end user\account.css'))</AssetFile>

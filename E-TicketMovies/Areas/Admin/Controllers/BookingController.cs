@@ -2,6 +2,8 @@
 using E_TicketMovies.Repositories.IRepositories;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Stripe;
+using Stripe.Checkout;
 
 namespace E_TicketMovies.Areas.Admin.Controllers
 {
@@ -18,25 +20,32 @@ namespace E_TicketMovies.Areas.Admin.Controllers
             this.userManager = userManager;
             this.bookingItemRepository = bookingItemRepository;
         }
-        public IActionResult Index(int? page = 1, string? query = null, bool? failed = false)
+        public IActionResult Index(int? page = 1, string? query = null, bool? refunded = false , bool? booked = false , bool? cancelled = false)
         {
-            List<Booking> allBookings;
+           var allBookings = bookingRepository.Get(includes: [e => e.ApplicationUser]); ;
 
-            if (failed == true)
+            if (refunded == true)
             {
-                // Get failed bookings (where PaymentStripId is null)
                 allBookings = (List<Booking>)bookingRepository.Get(e => e.PaymentStripId == null, includes: [e => e.ApplicationUser]);
             }
-            else
+            else if (booked == true)
+            {
+                allBookings = (List<Booking>)bookingRepository.Get(e => e.Status == true, includes: [e => e.ApplicationUser]);
+            }
+            else if (cancelled == true)
+            {
+                allBookings = (List<Booking>)bookingRepository.Get(e => e.Status == false && e.PaymentStatus == true , includes: [e => e.ApplicationUser]);
+            }
+            else 
             {
                 allBookings = (List<Booking>)bookingRepository.Get(includes: [e => e.ApplicationUser]);
 
-                // Optional: Add search filter if query is provided
                 if (!string.IsNullOrEmpty(query))
-                {
-                    allBookings = allBookings.Where(b => b.ApplicationUser.UserName.Contains(query)).ToList();
-                }
+
+                    allBookings = allBookings.Where(b => b.ApplicationUser.UserName.Contains(query,StringComparison.OrdinalIgnoreCase)).ToList();
+                
             }
+            
 
             // Pagination
             int totalCount = allBookings.Count();
@@ -53,30 +62,50 @@ namespace E_TicketMovies.Areas.Admin.Controllers
             return View(allBookings.ToList());
         }
 
-        //public IActionResult Index(int query, int page, List<Booking> failed)
-        //{
-        //    var allBookings = bookingRepository.Get(includes: [e=>e.ApplicationUser]);
+        public IActionResult Refund(int id)
+        {
 
-        //    failed = bookingRepository.Get(e=>e.PaymentStripId == null ,includes: [e => e.ApplicationUser]).ToList();
+            var booking = bookingRepository.GetOne(e=>e.Id == id);
+
+            if (booking != null)
+            {
+                if (booking.Status == false && booking.PaymentStripId != null)
+                {
+                    var service = new SessionService();
+                    var session = service.Get(booking.SessionId);
+                    var refundOptions = new RefundCreateOptions
+                    {
+                        PaymentIntent = booking.PaymentStripId,
+                        Amount = (long)booking.TotalPrice,
+                        Reason = RefundReasons.RequestedByCustomer
+                    };
+                    var refundService = new RefundService();
+                    var refundSesstion = refundService.Create(refundOptions);
+
+                    booking.PaymentStatus = false;
+                    booking.PaymentStripId = null;
+                    booking.Status = false;
+                    bookingRepository.Commit();
+                }
+            }
 
 
-        //    //if (allBookings != null)
-        //    //{
-        //    //    allBookings = bookingRepository.Get(e => e.Id == query);
+            return RedirectToAction("Index", "Booking");
 
-        //    //}
-        //    int totalCount = allBookings.Count();
-        //    int pageSize = 3;
-        //    int totalPages = (int)Math.Ceiling((double)totalCount / pageSize);
+        }
 
-        //    if (page > totalPages && totalPages > 0)
-        //        return RedirectToAction("NotFoundPage", "Home", new { area = "End User" });
+       public IActionResult ShowDetails(int id)
+        {
 
-        //    allBookings = allBookings.Skip((page - 1) * pageSize).Take(pageSize);
-
-        //    ViewBag.totalPages = totalPages;
-
-        //    return View(allBookings.ToList());
-        //}
+            var currrentUser = userManager.GetUserId(User);
+            var booking = bookingRepository.GetOne(e => e.Id == id);
+            var bookingItems = bookingItemRepository.Get(e => e.BookingId == id , includes: [e => e.Movie, e => e.Booking, e => e.Movie.Cinema]);
+            ViewBag.Id = booking.Id;
+            ViewBag.Total = booking.TotalPrice;
+            ViewBag.Date = booking.BookingTime;
+            ViewBag.User = booking.ApplicationUser;
+            ViewBag.Status = booking.Status;
+            return View(bookingItems.ToList());
+        }
     }
 }
