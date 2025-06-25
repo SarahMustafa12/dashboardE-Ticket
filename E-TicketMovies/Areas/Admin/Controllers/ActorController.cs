@@ -148,9 +148,7 @@ namespace E_TicketMovies.Areas.Admin.Controllers
                         actorMovieRepository.Delete(movie);
                     }
 
-                    // add new selected movies
-                    //the part of Except chatgpt modify it and gave me this code cause i uesd Contian method
-                    //but i knew that wasn't correct and i understood the reason.
+                    
                     var moviesToAdd = moviesId.Except(existingMovieIds) // Get new movies only.
                                        .Select(movieId => new ActorMovie { ActorId = actor.Id, MovieId = movieId })
                                        .ToList();

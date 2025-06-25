@@ -156,12 +156,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcSG9tZVxTaG93RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/Home/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcSG9tZVxfVmlld1N0YXJ0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/End User/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW5kIFVzZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/EraaSoft Tasks/E-TicketMovies/E-TicketMovies/Areas/Identity/Views/Account/AccessDenied.cshtml]

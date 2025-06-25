@@ -142,6 +142,20 @@ namespace E_TicketMovies.Areas.End_User.Controllers
             return Redirect(session.Url);
             
         }
-       
+        [HttpGet]
+        public IActionResult GetCartCount()
+        {
+          
+            var appUserId = userManager.GetUserId(User);
+
+            int cartCount = 0;
+
+            if (appUserId!= null)
+            {
+                cartCount = cartRepository.Get(e=>e.ApplicationUserId == appUserId).Sum(e=>e.Count);
+            }
+
+            return Json(cartCount);
+        }
     }
 }

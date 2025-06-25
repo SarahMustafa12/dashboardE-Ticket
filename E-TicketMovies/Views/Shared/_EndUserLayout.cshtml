@@ -1,6 +1,4 @@
-﻿@{
-    int cartNum = Convert.ToInt32(ViewBag.Count ?? 0);
-}
+﻿
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,7 +33,7 @@
                 <a href="/End%20User/Cart/AddToCart">
                     <i  class="bi bi-cart" style="color:aliceblue"></i>
                     
-                    <span class='badge badge-warning' id='lblCartCount'>@cartNum</span>
+                    <span  class='badge badge-warning' id='lblCartCount'>0</span>
                 </a>
                 
 
@@ -49,10 +47,6 @@
                     <a href="/Identity/Account/Register" >Register</a>
                }
              
-                
-                
-
-               
             </div>
         </nav>
 
@@ -69,16 +63,25 @@
         <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
     </footer>
    
+ 
+
+    <!-- Load jQuery (only once, and first) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Then Bootstrap JS (which requires jQuery) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Your own site/app scripts -->
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/end user/app.js"></script>
+    <script type="module" src="@Url.Content("~/end user/app.js")"></script>
+    <script src="~/end user/test.js"></script>
+
+    <!-- Optional Razor section -->
     @await RenderSectionAsync("Scripts", required: false)
-    <!-- Bootstrap JavaScript Bundle (Includes Popper.js) -->
 
 </body>
 </html>
+
 
 
 

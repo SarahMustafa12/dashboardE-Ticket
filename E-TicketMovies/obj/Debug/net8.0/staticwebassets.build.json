@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3RyFVIKTP8r7M4QVHBbVdt5Cuyg0jnT5cR4PFKpgCWs=",
+  "Hash": "aba0IJyMmd6kCUIQf5lw6ZCriQzhd5bq6NSOHrPo1iE=",
   "Source": "E-TicketMovies",
   "BasePath": "_content/E-TicketMovies",
   "Mode": "Default",
@@ -178,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8ybpgd2rwz",
-      "Integrity": "wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE=",
+      "Fingerprint": "262ignvsuh",
+      "Integrity": "epeviftwnFcmtspcXFCT++KEg3arPaxwQSupX/2GFHs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\end user\\app.js"
@@ -708,6 +708,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\end user\\style.css"
+    },
+    {
+      "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\test.js",
+      "SourceId": "E-TicketMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\",
+      "BasePath": "_content/E-TicketMovies",
+      "RelativePath": "end user/test#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jkn6q4j4qh",
+      "Integrity": "LSkxHdx5aLPWk8dQ0ZPNMbkTfCWFvve9aYyyVsXyPpU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\end user\\test.js"
     },
     {
       "Identity": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\favicon.ico",
@@ -41820,7 +41841,7 @@
       ]
     },
     {
-      "Route": "end user/app.8ybpgd2rwz.js",
+      "Route": "end user/app.262ignvsuh.js",
       "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -41830,7 +41851,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3342"
+          "Value": "7856"
         },
         {
           "Name": "Content-Type",
@@ -41838,11 +41859,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE=\""
+          "Value": "\"epeviftwnFcmtspcXFCT++KEg3arPaxwQSupX/2GFHs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 05:33:53 GMT"
+          "Value": "Wed, 25 Jun 2025 04:12:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41852,7 +41873,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8ybpgd2rwz"
+          "Value": "262ignvsuh"
         },
         {
           "Name": "label",
@@ -41860,7 +41881,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE="
+          "Value": "sha256-epeviftwnFcmtspcXFCT++KEg3arPaxwQSupX/2GFHs="
         }
       ]
     },
@@ -41875,7 +41896,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3342"
+          "Value": "7856"
         },
         {
           "Name": "Content-Type",
@@ -41883,11 +41904,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE=\""
+          "Value": "\"epeviftwnFcmtspcXFCT++KEg3arPaxwQSupX/2GFHs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 05:33:53 GMT"
+          "Value": "Wed, 25 Jun 2025 04:12:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41897,7 +41918,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wEwRh2URQX59Cl0joEF9HXgRDU5K1gMguLVvOhsogoE="
+          "Value": "sha256-epeviftwnFcmtspcXFCT++KEg3arPaxwQSupX/2GFHs="
         }
       ]
     },
@@ -43948,6 +43969,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-F1f8SsD3v3f7UPPShVPavPE2gUJbV68Kv5i7HKDNqdY="
+        }
+      ]
+    },
+    {
+      "Route": "end user/test.jkn6q4j4qh.js",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\test.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LSkxHdx5aLPWk8dQ0ZPNMbkTfCWFvve9aYyyVsXyPpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 04:22:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jkn6q4j4qh"
+        },
+        {
+          "Name": "label",
+          "Value": "end user/test.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSkxHdx5aLPWk8dQ0ZPNMbkTfCWFvve9aYyyVsXyPpU="
+        }
+      ]
+    },
+    {
+      "Route": "end user/test.js",
+      "AssetFile": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\test.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LSkxHdx5aLPWk8dQ0ZPNMbkTfCWFvve9aYyyVsXyPpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Jun 2025 04:22:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LSkxHdx5aLPWk8dQ0ZPNMbkTfCWFvve9aYyyVsXyPpU="
         }
       ]
     },

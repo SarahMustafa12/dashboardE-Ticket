@@ -129,6 +129,10 @@
       "PackagePath": "staticwebassets\\end user\\style.css"
     },
     {
+      "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\end user\\test.js",
+      "PackagePath": "staticwebassets\\end user\\test.js"
+    },
+    {
       "Id": "E:\\EraaSoft Tasks\\E-TicketMovies\\E-TicketMovies\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

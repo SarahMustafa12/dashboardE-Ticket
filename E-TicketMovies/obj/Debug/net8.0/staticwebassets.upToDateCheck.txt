@@ -29,6 +29,7 @@ wwwroot\end user\img\f-t-1.png
 wwwroot\end user\img\f-t-2.png
 wwwroot\end user\img\profile.jpg
 wwwroot\end user\style.css
+wwwroot\end user\test.js
 wwwroot\favicon.ico
 wwwroot\images\cast\cast1.png
 wwwroot\images\cast\cast2.png
